@@ -1,0 +1,3 @@
+A base dos dados é uma planilha em csv, possuí colunas como Tipo de imóvel, Bairro, Quartos, Vagas, etc. Recomendo dar uma olhada rápida antes pra ter uma base.
+
+O objetivo do código é só fazer um filtro básico e tratar dados núlos e dados inconsistente (exemplo de dado inconsistente: Apartamento com aluguel no valor 0, dado inconsistente)
