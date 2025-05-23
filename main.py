@@ -10,4 +10,4 @@ tipo_imovel = input('Olá! Para começar nossa busca, me diga qual tipo de imóv
 valor_imovel = int(input('Até qual valor você está procurando? '))
 
 filtro = (base_tratada['Tipo'] == tipo_imovel) & (base_tratada['Valor'] <= valor_imovel)
-print(filtro)
+print(base_tratada[filtro])
